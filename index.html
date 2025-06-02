@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Tour Viajes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+</head> <!-- El head es la parte que contiene los datos de la web -->
+<body>
+    <header> <!-- El HEADER es la parte de arriba de la pagina-->
+        <div>
+            <img src="./img/inicio/logo.png" alt="">
+        </div>
+        <div>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+        </ul>
+        </div>
+    </div>
+</nav>
+        </div>
+    </header>
+    <main class="main-inicio">
+        <section class="hero">
+            <h2>ARMA TU VIAJE SOÑADO HASTA 12 CUOTAS SIN INTERES</h2>
+            <p> Viaja a cualquier parte del mundo con nuestros servicios</p>
+            <a href="./pages/paquetes.html"></a>
+        </section>
+        <section class="fotos-inicio">
+            <div>
+                <img src="./img/inicio/mexico inicio.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, repellat alias odit possimus velit quod vitae, soluta blanditiis mollitia dicta porro, dignissimos aspernatur libero iste voluptate beatae modi expedita? Optio!</p>
+            </div>
+            <div>
+                <img src="./img/inicio/puerto rico.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem omnis voluptas animi? Modi, quibusdam quasi! Omnis earum tempora corrupti inventore nisi? Neque, qui. Assumenda excepturi cumque consequuntur libero maxime reiciendis?</p>
+            </div>
+        </section>
+        <table class="tabla">
+            <tr>
+                <th>Nombre</th>
+                <th>Numero</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>Brisa</td>
+                <td>1153863126</td>
+                <td>Fernandezbrisa@gmail.com</td>
+            </tr>
+            
+        </table> 
+        <form action="/submit" method="post">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre">
+            <label for="Contraseña">Contraseña</label>
+            <input type="password" name="Contraseña" id="Contraseña">
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mensaje" id="mensaje">Mensaje</textarea>
+            <input type="submit" value="enviar" class="boton">
+            <div>
+                <label for="viajes nacionales">Viajes nacionales</label>
+            <input type="radio" name="viajes nacionales" id="Viajes nacionales">
+            <label for="viajes internacionales">Viajes internacionales</label>
+            <input type="radio" name="viajes internacionales" id="viajes internacionales">
+            <select name="tu destino" id="tu destino">
+                <option value="asia">Asia</option>
+                <option value="europa">Europa</option>
+                <option value="argentina">Argentina</option>
+            </select>
+            </div>
+            
+        </form>
+    </main>
+    <footer>
+        <a href="https://www.facebook.com/?locale=es_LA" target="_blank"><img src="./img/facebook.png" alt=""></a>
+        <a href="https://www.instagram.com/" target="_blank"><img src="./img/instagram.png" alt=""></a>
+        <a href="https://www.whatsapp.com/?lang=es_LA" target="_blank"><img src="./img/whatsapp.png" alt=""></a>  
+        <section>
+            <p>Encontra nuestras oficinas en:</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26304.079022179278!2d-58.652426433367665!3d-34.502633854550155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbb4558d53941%3A0x4a50eedaa7f8f645!2sDon%20Torcuato%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1745980931974!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <p>Envianos un mensaje directo a nuestro E-mail: correofalso@gmail.com</p>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</body>
+</html>

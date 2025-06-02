@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* ---RESET---*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*-----body----{
+Roboto", sans-serif;
+} */
+/*---  Header  ---*/
+header {
+    height: auto;
+    background-color: lightblue;
+    display: flex;
+    justify-content:center;
+}
+/* header div{
+    margin-left: 20px;
+}
+h1{
+    color:mediumblue;
+    font: size 70px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font: weight 900px;
+}
+
+header nav ul li{
+    display: inline-block;
+    font-size: 20px;
+} */
+/* el boton de las listas */
+/* .boton{
+    background-color:rgb(19, 79, 136);
+    color:black;
+    text-decoration: none;
+    padding:10px;
+    margin: 10px;
+} */
+/* --- hero (contenido que llama la atencion) ---*/ 
+.hero{
+    display: flex;
+    flex-direction: column; /* flex-direction: sirve para acomodar el orden de los elementos en fila o columnas*/
+    justify-content: center; /* Los elementos izq,derecha o medio*/
+    align-items: center; /* decidiría si las cajas pequeñas se pegan a la parte superior, al medio o a la parte inferior de la caja grande. También podría hacer que se estiren para llenar la altura.
+
+ */
+    text-align: center;
+    
+    width: 100%;
+    height: 400px;
+    color:black;
+    font-size:30px;
+
+    background-image:url(../img/inicio/avion-fondo.jpg);
+    background-repeat: no-repeat;
+    background-size:cover; /* cover cubre todo el espacio del fondo*/
+    background-position: center ; /* position center ubica la imagen en el centro,etc*/
+
+}
+.hero div {
+    display: flex;
+}
+.hero div img{
+    width: 100% ;
+}
+/*-----main-----*/
+.fotos-inicio {
+    height: auto;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+}
+/* --- Footer --- */
+footer{
+    background-color: lightblue;
+    
+}
+footer a img{
+    height: 40px;
+    width: 40px;
+}
+iframe{
+    height: 200px;
+    width: 200px;
+}
